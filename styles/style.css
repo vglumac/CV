@@ -1,0 +1,27 @@
+html {
+    background-color: #0A022F;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    color:rgb(245, 241, 236);
+    background-color: #0A022F;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+    line-height: 1.8;
+    letter-spacing: 3px;
+    text-align: center;
+    color:rgb(245, 241, 236);
+}
+
+img[id=fox] {
+    display: block;
+    margin: 10px 20px 20px 150px;
+    height: 400px;
+    
+}
