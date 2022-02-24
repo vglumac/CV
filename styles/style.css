@@ -17,11 +17,79 @@ h1 {
     letter-spacing: 3px;
     text-align: center;
     color:rgb(245, 241, 236);
-}
+    }
 
-img[id=fox] {
-    display: block;
-    margin: 10px 20px 20px 150px;
-    height: 400px;
+#main-page {
+    
+    height: 100vh;
+}
+#menu {
+    font-size: 35px;
+    line-height: 1.2;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
     
 }
+#menu-photo,
+#menu-list {
+    width: 50vw;
+   
+}
+
+img[id=fox] {    
+    padding: 0;
+    width: 70vh;
+    display: block;
+    margin: 0 0 0 20vw;
+}
+nav {
+    text-align: left;
+    
+}
+nav a {
+    text-decoration: none;
+    color: rgb(245, 241, 236);
+}
+
+nav a:hover {
+    font-size: larger;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+li:nth-child(1) {
+    margin-left: 1vw;
+  }
+li:nth-child(2) {
+    margin-left: 2vw;
+  }
+  li:nth-child(3) {
+    margin-left: 3vw;
+  }
+  li:nth-child(4) {
+    margin-left: 3vw;
+  }
+  li:nth-child(5) {
+    margin-left: 2vw;
+  }
+  li:nth-child(6) {
+    margin-left: 1vw;
+  }
+#proba {
+    height: 100vh;
+    background: url('../images/proba.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#probas {
+    height: 100vh;
+    
+}
+
+
