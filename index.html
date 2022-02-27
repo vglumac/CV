@@ -5,17 +5,21 @@
   <meta charset="utf-8">
   <title>Vanja Glumac - CV</title>
   <link href="styles/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Lobster&family=PT+Sans&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <div id="main-page">
-
-    <h1>Vanja Glumac</h1>
-
+  <div class="page" id="main-page">
+    <div>
+      <h1>Vanja Glumac</h1>
+    </div>
     <div id="menu">
       <div id="menu-photo">
-        <img id=fox src="images/fox-chibibi-round.png" alt="Cute Little Fox Watching Butterfly by Chibibi">
+        <img id="fox" src="images/fox-chibibi-round.png" alt="Cute Little Fox Watching Butterfly by Chibibi">
       </div>
       <div id="menu-list">
         <nav>
@@ -29,15 +33,94 @@
           </ul>
         </nav>
       </div>
+    </div>
+  </div>
+  <div class="page" id="about">
+    <h2>About me</h2>
+    <div class="text-box">
+      <p>I was born in April 1995. I’m a HSE professional with a Master in Occupational Safety Engineering. I’m skilled
+        in Safety Management and Environmental Management. I am passionate about my profession and I'm constantly
+        looking to expand my knowledge.</p>
+    </div>
+  </div>
+  <div class="page" id="work">
+    <h2>Work expericence</h2>
 
+    <div id="grid">
+      <a id="logo-link-cof" href="https://www.coficab.com/about-us/" target="_blank" rel="noopener noreferrer"> 
+        <img class="logo" src="../cv/images/coficab_logo2.jpg" alt="Logo - Coficab"></a>
+      <a id="logo-link-as" href="https://www.airserbia.com/en/footer_menu/corporate/about-us/our-story" target="_blank" rel="noopener noreferrer"><img
+          class="logo" src="../cv/images/air-serbia-vector-logo.png" alt="Logo - Airserbia"></a>
+
+      <input type="radio" name="job-item" value="1" id="j1" checked>
+      <div class="job-description">
+        <h3>October 2021 - </h3>
+        <ul>
+          <li>Monitoring compliance with the requirements the environmental management system of Coficab Group, the
+            site-specific requirements and the ISO 14001;
+          <li>Ensuring that personnel are properly instructed and trained in health and safety, environmental protection
+            and fire prevention;
+          </li>
+
+          <li>Conducting occupational accident, incident and injury root cause analysis, developing
+            corrective/preventive action plans and following the progress, effectiveness and efficiency to decrease
+            accident and injury rate;
+          </li>
+          <li>Leading, monitoring and improvement of chemical and waste management processes.
+          </li>
+          <li>Responsible for management of fire prevention;
+          </li>
+        </ul>
+      </div>
+      <label for="j1" id="label-j1">EHS Coordinator</label>
+
+      <input type="radio" name="job-item" value="2" id="j2">
+      <div class="job-description">
+        <h3>August 2020 - October 2021</h3>
+        <ul>
+          <li>Performing daily EHS inspections on site;</li>
+          <li>Developing internal instructions, visual aids, as well as training material, flyers, health and safety
+            tips to enhance EHS awareness;
+          </li>
+          <li>Organizing preventive and periodic examinations of working environment conditions, organizing preventive
+            and
+            periodic inspections, and checks of work equipment; </li>
+          <li>Organization of medical examinations of employees;</li>
+          <li>Creating and updating inventories of all relevant equipment and materials;</li>
+          <li>Keeping records/evidence in the field of occupational safety, environmental protection and fire
+            prevention;</li>
+          </p>
+      </div>
+      <label for="j2" id="label-j2">EHS Technician</label>
+
+      <input type="radio" name="job-item" value="3" id="j3">
+      <div class="job-description">
+        <h3>November 2018 - November 2019</h3>
+        <ul>
+          <li>Administrative support (updating employees' record files,
+            keeping track of employees' medical check-ups, keeping all
+            HSE spread sheets up to date, etc);</li>
+          <li>Evaluation of HSE training effectiveness (using the Kirkpatrick
+            model);</li>
+        </ul>
+      </div>
+      <label for="j3" id="label-j3">HSE Intern</label>
     </div>
 
   </div>
+  <div class="page" id="education">
+    <h2>Education</h2>
+  </div>
+  <div class="page" id="skills">
+    <h2>Skills and Certificates</h2>
+  </div>
+  <div class="page" id="interests">
+    <h2>Interests</h2>
 
-  <div id="proba">1</div>
-
-  <div id="probas">1</div>
-
+  </div>
+  <div class="page" id="contact">
+    <h2>Contact</h2>
+  </div>
 
 
 </body>
