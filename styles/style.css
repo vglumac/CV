@@ -1,14 +1,14 @@
 html {
     background-color: #09181F;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family     : 'Alegreya Sans', sans-serif;
-    font-size       : 3.5vh;
-    color           : rgb(245, 241, 236);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(245, 241, 236);
     background-color: #09181F;
-    margin          : 0 auto;
+    margin: 0 auto;
 }
 
 .page {
@@ -16,33 +16,33 @@ body {
 }
 
 h1 {
-    margin        : 0;
-    font-family   : 'Lobster', cursive;
-    font-size     : 13vh;
-    line-height   : 1.8;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    line-height: 1.8;
     letter-spacing: 3px;
-    text-align    : center;
-    color         : rgb(245, 241, 236);
+    text-align: center;
+    color: rgb(245, 241, 236);
 }
 
 h2 {
-    margin       : 0;
-    margin-bottom: 3vh;
-    padding-left : 10%;
-    padding-top  : 2%;
-    font-family  : 'Lobster', cursive;
-    font-size    : 10vh;
-    text-align   : left;
-    color        : rgb(245, 241, 236);
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 3.5rem;
+    text-align: left;
+    color: rgb(245, 241, 236);
 
 }
 
 #menu {
-    font-size  : 7.4vh;
+    font-size: 42px;
     line-height: 1.2;
-    display    : flex;
-    width      : 70vw;
-    margin     : 0 auto;
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
     align-items: center;
 
 
@@ -51,32 +51,32 @@ h2 {
 #menu-photo,
 #menu-list {
     flex-grow: 1;
-    margin   : auto;
+    margin: auto;
 }
 
 #fox {
-    padding  : 0;
+    padding: 0;
     max-width: 35vw;
-    height   : auto;
+    height: auto;
 
 }
 
 nav a {
-    text-align     : left;
+    text-align: left;
     text-decoration: none;
-    color          : rgb(245, 241, 236);
+    color: rgb(245, 241, 236);
 
 }
 
 nav a:hover {
-    font-size  : larger;
+    font-size: larger;
     font-weight: 700;
-    transition : 300ms;
+    transition: 300ms;
 }
 
 #menu-list ul {
     list-style: none;
-    margin    : 0;
+    margin: 0;
 }
 
 #menu-list li:nth-child(1) {
@@ -106,75 +106,77 @@ nav a:hover {
 #about,
 #education,
 #interests {
-    background           : url('../images/bg02.jpg');
-    background-size      : cover;
+    background: url('../images/bg02.jpg');
+    background-size: cover;
     background-attachment: fixed;
 }
 
 .text-box {
-    height          : 60vh;
-    width           : 70vw;
-    margin          : auto;
-    padding         : 5vh;
-    text-align      : justify;
+    height: 60vh;
+    width: 70vw;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
     background-color: #09181F70;
 }
 
 #grid {
-    display              : grid;
-    margin               : 0 auto;
-    width                : 80vw;
-    height               : 75vh;
+    display: grid;
+    margin: 0 auto;
+    width: 80vw;
+    height: 75vh;
     grid-template-columns: 16vw 16vw 48vw;
-    grid-template-rows   : 25vh 25vh 25vh;
+    grid-template-rows: 25vh 25vh 25vh;
 }
-#logo-link-cof {
-    grid-area    : 1/1/3/2;
-    align-self   : center;
-    justify-self : center;
-}
-#logo-link-as {
-    grid-area    : 3/1/4/2;
-    align-self   : center;
-    justify-self : center;
-}
-.logo {
-    width        : 100%;
-    height       : auto;
-    border          : 0.2vw solid #09181F;
-    box-shadow      : 0 0 0 0.1vw rgb(245, 241, 236);
 
+#logo-link-cof {
+    grid-area: 1/1/3/2;
+    align-self: center;
+    justify-self: center;
+}
+
+#logo-link-as {
+    grid-area: 3/1/4/2;
+    align-self: center;
+    justify-self: center;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    border: 0.2vw solid #09181F;
+    box-shadow: 0 0 0 0.1vw rgb(245, 241, 236);
 }
 
 #label-j1 {
     margin: 0 0 0.5vh 2vw;
-    width      : auto;
-    grid-area  : 1/2/2/3;
-    align-self : flex-end;
-    padding    : 2vh;
-    border          : 0.2vw solid #09181F;
-    box-shadow      : 0 0 0 0.1vw rgb(245, 241, 236);
-   
+    width: auto;
+    grid-area: 1/2/2/3;
+    align-self: flex-end;
+    padding: 2vh;
+    border: 0.2vw solid #09181F;
+    box-shadow: 0 0 0 0.1vw rgb(245, 241, 236);
+
 }
 
 #label-j2 {
     margin-left: 2vw;
-    width      : auto;
-    grid-area  : 2/2/3/3;
-    align-self : flex-start;
-    padding    : 2vh;
-    border          : 0.2vw solid #09181F;
-    box-shadow      : 0 0 0 0.1vw rgb(245, 241, 236); 
+    width: auto;
+    grid-area: 2/2/3/3;
+    align-self: flex-start;
+    padding: 2vh;
+    border: 0.2vw solid #09181F;
+    box-shadow: 0 0 0 0.1vw rgb(245, 241, 236);
 }
 
 #label-j3 {
     margin-left: 2vw;
-    width      : auto;
-    grid-area  : 3/2/4/3;
-    align-self : center;
-    padding    : 2vh;
-    border          : 0.2vw solid #09181F;
-    box-shadow      : 0 0 0 0.1vw rgb(245, 241, 236);
+    width: auto;
+    grid-area: 3/2/4/3;
+    align-self: center;
+    padding: 2vh;
+    border: 0.2vw solid #09181F;
+    box-shadow: 0 0 0 0.1vw rgb(245, 241, 236);
 }
 
 #work input {
@@ -187,32 +189,59 @@ nav a:hover {
 }
 
 #work input:checked+.job-description {
-    display    : block;
-    grid-area  : 1/3/4/4;
+    display: block;
+    grid-area: 1/3/4/4;
     margin-left: 2vw;
 }
 
-#work input[id="j1"]:checked~label[id="label-j1"] {
+#work input#j1:checked~label#label-j1 {
     background-color: rgb(245, 241, 236);
-    color           : #09181F;
-    font-weight     : bold;
-    border          : 0.2vw solid #09181F;
-    box-shadow      : 0 0 0 0.1vw rgb(245, 241, 236);
+    color: #09181F;
+    font-weight: bold;
+    border: 0.2vw solid #09181F;
+    box-shadow: 0 0 0 0.1vw rgb(245, 241, 236);
 }
 
-#work input[id="j2"]:checked~label[id="label-j2"] {
+#work input#j2:checked~label#label-j2 {
     background-color: rgb(245, 241, 236);
-    color           : #09181F;
-    font-weight     : bold;
-    border          : 0.2vw solid #09181F;
-    box-shadow      : 0 0 0 0.1vw rgb(245, 241, 236);
+    color: #09181F;
+    font-weight: bold;
+    border: 0.2vw solid #09181F;
+    box-shadow: 0 0 0 0.1vw rgb(245, 241, 236);
 }
 
-#work input[id="j3"]:checked~label[id="label-j3"] {
+#work input#j3:checked~label#label-j3 {
     background-color: rgb(245, 241, 236);
-    color           : #09181F;
-    font-weight     : bold;
-    border          : 0.2vw solid #09181F;
-    box-shadow      : 0 0 0 0.1vw rgb(245, 241, 236);
+    color: #09181F;
+    font-weight: bold;
+    border: 0.2vw solid #09181F;
+    box-shadow: 0 0 0 0.1vw rgb(245, 241, 236);
+}
 
+#education table {
+    border: 2px solid rgb(245, 241, 236);
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+#education table thead th,
+#education table tbody td {
+    border: 1px solid rgb(245, 241, 236);
+    width: 20vw;
+    height: 8vh;
+}
+
+#education table thead th {
+    background-color: rgb(245, 241, 236);
+    color: #09181F;
+    text-align: center;
+}
+
+#education table tbody tr>td:nth-child(3) {
+    text-align: center;
+}
+
+#education table tfoot {
+    background-color: rgba(245, 241, 236, 0.4);
 }
